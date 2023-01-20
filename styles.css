@@ -1,0 +1,413 @@
+/* .......Navbar........ */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 3%;
+    /* gap: 1068px;  */
+}
+ /* ...........button.......... */
+button{
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background: #fff;
+    /* ...text... */
+    color: #000;
+    font-family: 'Open sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    padding: 1% 2%;
+ }
+
+ /* ..............Main................ */
+
+.row{ 
+    margin-top: 3rem !important;
+}
+
+/* .container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem) !important;
+    padding-left: var(--bs-gutter-x, 0.75rem) !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+} */
+
+ /* .........Banner......... */
+
+.Banner{
+    background: url('assets/Sky.png') !important;
+    width: auto;
+    height: 50rem;
+}
+
+ .toronto{
+    position: absolute;
+    padding-left: 18%;
+    /* left: auto; */
+    top: 206px;
+    justify-content: center;
+    align-items: center;
+    /* ....text.... */
+    font-family: 'josefin sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    text-align: center;
+    color: #ffffff;
+ }
+
+ /* ......CN-photo..... */
+ .CN{
+    position: absolute;
+    height: 653.23px;
+    left: 15.5%;
+    top: 263px;
+ }
+
+ /* ........Overlay.......... */
+ .overlay{
+    background: url('assets/Overlay.png');
+    position: absolute;
+    /* width: 1152px; */
+    width: 90%;
+    height: 954px;
+    left: 5%;
+    top: 65px;
+ }
+
+ /* ......adverts....... */
+ .adverts{
+    top: 10rem !important;
+    background: #ffffff;
+    display: flex;
+ }
+ #img02{
+    position: relative;
+    width: auto;
+    height: 350px;
+    left: 20px;
+    top: 10px;
+ }
+ #img03{
+    position: relative;
+    width: auto;
+    height: 350px;
+    left: 35px;
+    top: 246px;
+ }
+ #img01{
+    position: relative;
+    width: auto;
+    height: 350px;
+    left: 50px;
+    top: 69px;
+ }
+ #img04{
+    position: relative;
+    width: auto;
+    height: 350px;
+    left: 60px;
+    top: 184px;
+ }
+
+ /* .........footer......... */
+ .footer{
+    background: #ffffff;
+ }
+ p{
+    position: relative;
+    width: 620px;
+    height: 128px;
+    left: 265px;
+    top: 365px;
+    /* ...text.... */
+    font-family: 'Open sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+ }
+
+ 
+ /* ......MOBILEVIEW..... */
+ 
+
+ /* 320 fs- 12px, 768 fs-14px, 1024 fs-16, */
+
+ @media screen and (min-width: 320px) and (max-width: 375px) {
+    .Banner{
+        height: 25rem;
+    }
+    .toronto{
+        position: relative;
+        left: -10%;
+        top: 112px; 
+        width: 100%;
+     } 
+    .CN{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: -1%;
+        top: 98px;
+    } 
+    .overlay{
+        background: url('assets/Overlay.png');
+        position: absolute;
+        /* width: 363px; */
+        width: 100%;
+        height: 427px;
+        left: 0%;
+        top: 1.6rem;
+    } 
+    .adverts{
+        margin-top: 0rem;
+    }
+     
+    #img02{
+        position: relative;
+        width: auto;
+        height: 300px;
+        left: 10%;
+        top: 169px;
+    }
+    #img03{
+        position: relative;
+        width: auto;
+        height: 300px;
+        left: 10%;
+        top: 246px;
+    }
+    #img01{
+        position: relative;
+        width: auto;
+        height: 300px;
+        left: 10%;
+        top: 323px;
+    }
+    #img04{
+        position: relative;
+        width: auto;
+        height: 300px;
+        left: 10%;
+        top: 400px;
+    }
+    p{
+        position: relative;
+        width: auto;
+        height: 128px;
+        left: 0px;
+        top: 465px;
+        /* ...text.... */
+        font-family: 'Open sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 175%;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+ }
+ 
+
+ @media screen and (min-width: 375px) and (max-width: 768px) {
+    .CN{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: -1%;
+        top: 100px;
+    } 
+     .overlay{
+        background: url('assets/Overlay.png');
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: -2.2rem;
+    }
+    .Banner{
+        height: 31rem;
+    }
+    .toronto{
+       position: relative;
+       left: 0%;
+       top: 112px; 
+       width: 80%;
+    } 
+    .adverts{
+        margin-top: 0rem;
+    }
+        
+    #img02{
+        position: relative;
+        width: auto;
+        height: 300px;
+        left: 20%;
+        top: 169px;
+    }
+    #img03{
+        position: relative;
+        width: auto;
+        height: 300px;
+        left: 20%;
+        top: 246px;
+    }
+    #img01{
+        position: relative;
+        width: auto;
+        height: 300px;
+        left: 20%;
+        top: 323px;
+    }
+    #img04{
+        position: relative;
+        width: auto;
+        height: 300px;
+        left: 20%;
+        top: 400px;
+    }
+    
+    p{
+        position: relative;
+        width: auto;
+        height: 128px;
+        left: 0px;
+        top: 465px;
+        /* ...text.... */
+        font-family: 'Open sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 175%;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+    }
+ }
+ 
+ /* ...........TABLETVIEW.......... */
+
+ @media screen and (min-width: 767px) and (max-width: 1023px) {
+    .toronto{
+        position: relative;
+        left: 0%;
+        top: 112px; 
+        width: 80%;
+     }
+    .CN{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: -1%;
+        top: 85px;
+    }
+    .overlay{
+        background: url('assets/Overlay.png');
+        position: absolute;
+        width: 850px;
+        height: 727px;
+        left: 0%;
+        top: 8.6rem;
+        right: 0;
+    } 
+       
+    #img02{
+        position: relative;
+        width: auto;
+        height: 350px;
+        left: 50px;
+        top: 169px;
+    }
+    #img03{
+        position: relative;
+        width: auto;
+        height: 350px;
+        left: 50px;
+        top: 246px;
+    }
+    #img01{
+        position: relative;
+        width: auto;
+        height: 350px;
+        left: 50px;
+        top: 323px;
+    }
+    #img04{
+        position: relative;
+        width: auto;
+        height: 350px;
+        left: 40px;
+        top: 400px;
+    }
+    
+    p{
+        position: relative;
+        width: auto;
+        height: 128px;
+        left: 0px;
+        top: 465px;
+        /* ...text.... */
+        font-family: 'Open sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 175%;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+    }
+ } 
+ 
+ @media screen and (min-width: 1023px) and (max-width: 1440px) {
+    .overlay{
+        width: 90%;
+        /* left: 2%; */
+    }
+    #img02{
+        width: auto;
+        height: 80%;
+        left: 0px;
+        top: 169px;
+    }
+    #img03{
+        width: auto;
+        height: 80%;
+        left: 10px;
+        top: 246px;
+    }
+    #img01{
+        width: auto;
+        height: 80%;
+        left: 20px;
+        top: 163px;
+    }
+    #img04{
+        width: auto;
+        height: 80%;
+        left: 30px;
+        top: 300px;
+    }
+    p{
+        position: relative;
+        width: 650px;
+        height: 128px;
+        left: 220px;
+        top: 365px;
+        /* ...text.... */
+        font-family: 'Open sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 175%;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+    }
+ } 

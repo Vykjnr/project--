@@ -1,0 +1,17 @@
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  body{
+    background: url(assets/Image04.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+  .box{
+    margin-left: -5% !important;
+  }
+  .footer{
+    color: #000 !important;
+  }
+  .footer span{
+    color: #000 !important;
+  }
+}
